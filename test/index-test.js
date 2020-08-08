@@ -4,7 +4,7 @@ it('defines `Hello, everybody!`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
 
-it('concatenates strings to greet a special guest in SpecialGuest`', function() {
+it('concatenates strings to greet a special guest in greeting`', function() {
   expect(SpecialGuest).toEqual(`Neil deGrasse Tyson`)
 }) 
 
